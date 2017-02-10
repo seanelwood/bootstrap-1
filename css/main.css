@@ -1,0 +1,134 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 220px;
+		font-family: 'Nunito';
+}
+.container.main {
+  margin: 90px auto 300px auto;
+}
+/* nav styles
+----------------------------------------------------- */
+.navbar {
+	background-color: darkslategray;
+  position: relative;
+  width: 100%;
+	}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  
+}
+
+.navbar a {
+		color: white
+}
+
+.nav>li>a:hover, .nav>li>a:focus, .navbar-brand:hover, .navbar-brand:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover, button.navbar-toggle.collapsed:hover {
+  background-color: #000;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.dropdown-menu>li>a, .navbar-nav>li>.dropdown-menu, .dropdown-menu .open {
+  background-color: darkslategray;
+  color: white;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background-color: darkslategray;
+}
+
+.dropdown-menu .divider {
+  background-color: aliceblue;
+}
+/* footer styles
+----------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 220px;
+  background-color: #333;   
+		color: #efe;
+		padding: 10px 0;	
+}
+.footer a {
+				color: lightblue;
+}
+.footer a:hover {
+				color: aliceblue;
+}
+
+.container {
+				max-width: 960px;
+}
+
+.well {
+	background-color: transparent;
+}
+.lead {
+	color: #555;
+}
+.btn-lg {
+	padding: 10px 20px;
+	margin-right: 15px;
+}
+
+/* index.html
+------------------------------------------------------- */
+.features .glyphicon {
+				font-size: 32px;
+}
+
+/* Blog Page
+---------------------------------------------------------- */
+
+.sidebar .fa-rocket {
+  font-size: 4em;
+}
+
+.meta {
+  margin: 10px 0;
+}
+.meta li {
+  border-right: 1px solid blue;
+}
+.meta li:last-child {
+  border: none;
+}
+
+/* Media Queries
+------------------------------------------------------ */
+@media only screen and (max-width: 768px) { 
+  body {
+    margin-bottom: 400px;
+		}
+				.footer {
+				  height: 400px;
+				}
+}
+
+
+/* Temp / dev only stytles
+
+.testing-div-1 {
+  background-color: chartreuse;  
+  height: 80vh;
+}
+
+.testing-div-2 {
+  background-color: firebrick;  
+  height: 80vh;
+}
+------------------------------------------------------ */
+
